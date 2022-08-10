@@ -1,0 +1,33 @@
+Primera parte Inicializar repositorio Git vacío:
+
+Owner@DESKTOP-H1G7K7T MINGW64 ~/Desktop/Proyecto2
+$ git init
+Initialized empty Git repository in C:/Users/Owner/Desktop/Proyecto2/.git/
+
+Owner@DESKTOP-H1G7K7T MINGW64 ~/Desktop/Proyecto2 (master)
+$ git config --global user.email"danielferrarini@hotmail.com"
+
+Owner@DESKTOP-H1G7K7T MINGW64 ~/Desktop/Proyecto2 (master)
+$ git config --global user.name"soloporgracia"
+
+=============================================================================
+Segunda parte:
+
+Lo que sigue lo puso una alumna:
+
+echo "# Javafrontend" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/camilaVera02/Javafrontend.git
+git push -u origin master
+-----------------------------------------------------------------------------
+Lo que sigue lo mandó la instructora en WsUp:
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/xxxxxnombre de usuario./nombre del repositoropxxxxxx
+git push -u origin master
